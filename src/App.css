@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Bitch";
+  font-family: "primary";
   src: url("/src/app/assets/Montserrat/static/Montserrat-Regular.ttf");
   font-weight: bold;
 }
@@ -9,20 +9,23 @@
 }
 
 .nav {
-  /* background-color: black; */
-  color: white;
+  font-family: "primary";
+  color: black;
+  gap: 3rem;
+  padding-right: 4rem;
 }
 
 .navbar-brand {
+  max-width: 4rem;
   text-align: center;
-  
-  font-family: "Bitch", sans-serif;
 }
 
+.navbar-brand img {
+  height: 4rem;
+  margin-left: 4rem;
+}
 
-
-
-.VERVEHEADER, .container {
-  background-color: #F4EEE5;
-  max-width: 10px;
+footer {
+  background-color: #E9E3DA;
+  font-family: "primary";
 }

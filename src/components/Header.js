@@ -6,29 +6,24 @@ import VerveLogo from "../app/assets/verve.webp";
 const Header = () => {
    return (
       <>
+
       <Navbar>
-         <NavbarBrand>
-            <img src={VerveLogo} alt="Verve Coffee Roasters" /> hey bitch
+         <NavbarBrand className="m-auto">
+            <img src={VerveLogo} alt="Verve Coffee Roasters" />
          </NavbarBrand>
 
-         <Nav navbar>
+         <Nav>
             <NavItem>
-               <NavLink className="nav-link" to="/">
-                  <i /> COFFEEE
-               </NavLink>
-            </NavItem>
-            {/* <NavItem>
-               <NavLink className="nav-link">
-                  <i /> SUBSCRIPTIONS
-               </NavLink>
+               Home
             </NavItem>
             <NavItem>
-               <NavLink className="nav-link">
-                  <i /> LOCATIONS
-               </NavLink>
-            </NavItem> */}
+               Shop
+            </NavItem>
+            <NavItem>
+               Cart
+            </NavItem>
          </Nav>
-
+         
       </Navbar>
       </>
    )
