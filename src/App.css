@@ -3,7 +3,6 @@
   src: url("/src/app/assets/Montserrat/static/Montserrat-Regular.ttf");
   font-weight: bold;
 }
-
 .navbar {
   background-color: #F4EEE5;
 }
@@ -13,6 +12,10 @@
   color: black;
   gap: 3rem;
   padding-right: 4rem;
+}
+
+.nav-link {
+  color: black;
 }
 
 .navbar-brand {
@@ -28,4 +31,8 @@
 footer {
   background-color: #E9E3DA;
   font-family: "primary";
+}
+
+.md-6 {
+  height: 10rem;
 }

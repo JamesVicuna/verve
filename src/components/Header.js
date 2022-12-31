@@ -7,20 +7,26 @@ const Header = () => {
    return (
       <>
 
-      <Navbar>
+      <Navbar dark sticky='top'>
          <NavbarBrand className="m-auto">
             <img src={VerveLogo} alt="Verve Coffee Roasters" />
          </NavbarBrand>
 
          <Nav>
             <NavItem>
-               Home
+               <NavLink className='nav-link' to="/">
+                  Home
+               </NavLink>
             </NavItem>
             <NavItem>
-               Shop
+               <NavLink className='nav-link' to="/shop">
+                  Shop
+               </NavLink>
             </NavItem>
             <NavItem>
-               Cart
+               <NavLink className='nav-link' to='/cart'>
+                  Cart
+               </NavLink>
             </NavItem>
          </Nav>
          

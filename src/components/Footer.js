@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
    return (
@@ -9,13 +10,13 @@ const Footer = () => {
                   <h5>Links</h5>
                   <ul className="list-unstyled">
                      <li>
-                        Home
+                        <Link to='/'>Home</Link>
                      </li>
                      <li>
-                        Shop
+                        <Link to='/shop'>Shop</Link>
                      </li>
                      <li>
-                        Cart
+                        <Link to='/cart'>Cart</Link>
                      </li>
                   </ul>
                </Col>
