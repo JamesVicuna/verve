@@ -5,7 +5,7 @@ import DisplayCard from "./DisplayCard";
 
 
 const DisplayList = () => {
-   const items = useSelector((state) => [selectFeaturedCoffee(state), selectFeaturedCoffee(state)])
+   const items = useSelector((state) => [selectFeaturedCoffee(state), selectFeaturedCoffee(state), selectFeaturedCoffee(state)])
 
    return (
       <Row>

@@ -6,6 +6,12 @@ export const COFFEES = [
       id: 0,
       name: "Kabingara",
       image: kabingaraImg,
+      price: 15,
+      flavorDescriptions: [
+         "Apple",
+         "Honey",
+         "Cocao"
+      ],
       rating: 5,
       roast: "light",
       roastLevel: "3",
@@ -17,6 +23,12 @@ export const COFFEES = [
       id: 1,
       name: "Virgilia Funtes Gutierrez",
       image: virgiliaImg,
+      price: 15,
+      flavorDescriptions: [
+         "Blueberry Pie",
+         "Cocao",
+         "Candied Pecan"
+      ],
       rating: 5,
       roast: "light",
       roastLevel: "4",
